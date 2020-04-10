@@ -6,7 +6,7 @@
       </h2>
       <h6 class="subtitle">
         Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
-        cillum dolore eu fugiat nulla pariatur.
+        cillum dolore eu fugiat nulla pariatur. Lorem ipsum.
       </h6>
     </div>
     

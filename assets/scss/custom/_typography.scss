@@ -1,0 +1,130 @@
+.title {
+  font-family: "PTMono-Bold", sans-serif;
+  font-weight: $fw-bold;
+  font-size: $fs-36;
+  margin-bottom: 16px;
+  @include from-laptop-down {
+    margin-bottom: 10px;
+  }
+  @include md-down {
+    font-size: $fs-24;
+  }
+
+  &--large {
+    font-size: $fs-72;
+    @include from-laptop-down {
+      font-size: $fs-48;
+    }
+    @include md-down {
+      font-size: $fs-24;
+    }
+  }
+
+  &--large-resp {
+    @include lg-down {
+      font-size: $fs-36;
+    }
+    @include md-down {
+      font-size: $fs-18;
+    }
+  }
+
+  &--medium {
+    font-size: $fs-60;
+    @include from-laptop-down {
+      font-size: $fs-48;
+    }
+    @include lg-down {
+      font-size: $fs-36;
+    }
+    @include md-down {
+      font-size: $fs-24;
+    }
+  }
+
+  &--tiny {
+    font-size: $fs-25;
+    margin-bottom: 0;
+    @include from-laptop-down {
+      font-size: $fs-21;
+    }
+    @include md-down {
+      font-size: $fs-14;
+    }
+  }
+}
+
+.subtitle {
+  color: $grey;
+  font-size: $fs-20;
+  line-height: $lh-29;
+
+  &--large {
+    font-size: $fs-32;
+    @include from-laptop-down {
+      font-size: $fs-24;
+    }
+    @include md-down {
+      font-size: $fs-base;
+    }
+  }
+}
+
+.heading {
+  color: $black;
+  font-size: $fs-14;
+  font-weight: $fw-medium;
+  text-transform: uppercase;
+}
+
+.name {
+  font-size: $fs-21;
+  @include from-laptop-down {
+    font-size: $fs-base;
+  }
+}
+
+.desc {
+  @include from-laptop-down {
+    font-size: $fs-14;
+  }
+}
+
+.navigation-link {
+  @extend .heading;
+  transition: color 0.2s;
+
+  &:hover {
+    color: $color-brand;
+    text-decoration: none;
+  }
+}
+
+
+a {
+  color: $color-brand;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $color-brand-dark;
+  }
+}
+
+.static-link {
+  color: initial;
+
+  &:hover {
+    color: initial;
+    text-decoration: none;
+  }
+}
+
+.p--accent {
+  font-size: $fs-24;
+  line-height: $lh-40;
+  font-weight: $fw-medium;
+  @include md-down {
+   font-size: $fs-18;
+    line-height: $lh-29;
+  }
+}

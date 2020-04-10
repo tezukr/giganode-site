@@ -1,0 +1,29 @@
+// Override standard bootstrap button styles
+.btn {
+  font-size: $fs-14;
+  font-weight: $fw-medium;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+}
+
+
+// Extend a standard bootstrap button
+.btn--wide {
+  padding: 0.7812rem 31px;
+  @include from-laptop-down {
+    padding: 0.5rem 17px;
+  }
+}
+
+.btn--social {
+  @extend .round;
+  background-color: $white-grey-2;
+  border-color:  $white-grey-2;
+  color: $grey;
+
+  &:hover, &:focus, &:not(:disabled):not(.disabled):active {
+    background-color: $color-brand;
+    border-color: $color-brand;
+  }
+}

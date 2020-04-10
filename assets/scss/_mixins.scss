@@ -1,0 +1,29 @@
+@mixin from-laptop-down {
+  @media (max-width: $laptop) {
+    @content;
+  }
+}
+
+@mixin xl-down {
+  @media (max-width: $xl) {
+    @content;
+  }
+}
+
+@mixin lg-down {
+  @media (max-width: $lg) {
+    @content;
+  }
+}
+
+@mixin md-down {
+  @media (max-width: $md) {
+    @content;
+  }
+}
+
+@mixin sm-down {
+  @media (max-width: $sm) {
+    @content;
+  }
+}

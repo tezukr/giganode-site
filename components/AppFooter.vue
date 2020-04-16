@@ -64,7 +64,7 @@
                 Contact
               </h6>
               <p>
-                Any time, We are open 24/7 <br>
+                Any time, We are on duty 24/7 <br>
                 <a href="mailto:info@giganode.io">
                   info@giganode.io
                 </a>

@@ -13,7 +13,6 @@
             xl="5"
           >
             <AppLogo
-              :responsive="false"
               class="app-footer__app-logo"
             />
           </b-col>
@@ -48,8 +47,18 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
-                  class="btn--social">
+                  class="btn--social mr-3">
                   <font-awesome-icon :icon="['fab', 'medium']"/>
+                </b-btn>
+              </p>
+              <p>
+                <b-btn
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  size="sm"
+                  class="btn--social">
+                  <font-awesome-icon :icon="['fab', 'reddit']"/>
                 </b-btn>
               </p>
             </div>

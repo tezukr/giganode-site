@@ -1,0 +1,61 @@
+.grid {
+    padding-top: 60px;
+    margin-bottom: 100px;
+    @include xl-down {
+      margin-bottom: 60px;
+    }
+    @include md-down {
+      padding-top: 0px;
+      margin-bottom: 30px;
+    }
+
+    &__row {
+      display: flex;
+
+      &:first-child {
+        margin-bottom: 70px;
+      }
+    }
+
+    &__tile {
+      display: flex;
+      flex: 1 0 50%;
+      max-width: 50%;
+      padding: 40px 58px;
+      @include md-down {
+        padding: 40px 20px;
+      }
+
+      &--left {
+        justify-content: flex-end;
+        @include xl-down {
+          justify-content: flex-start;
+        }
+      }
+
+      &--accent {
+        background-color: $white-grey;
+      }
+    }
+
+    &__item {
+      max-width: 486px;
+    }
+  }
+
+@media (max-width: $xl) {
+    .grid {
+      &__row {
+        flex-direction: column;
+
+        &:first-child {
+          margin-bottom: 0;
+        }
+      }
+
+      &__tile {
+        flex: 1 0 100%;
+        max-width: initial;
+      }
+    }
+  }

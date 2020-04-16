@@ -65,8 +65,8 @@
               </h6>
               <p>
                 Any time, We are open 24/7 <br>
-                <a href="tel:5551234567">
-                  +018-958-9709
+                <a href="mailto:info@giganode.io">
+                  info@giganode.io
                 </a>
               </p>
             </div>

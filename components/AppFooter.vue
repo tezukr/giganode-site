@@ -83,6 +83,15 @@
           <b-col
           
           >
+         
+           <div class="app-footer__item mb-0">
+              <h6 class="heading mb-40">
+                Address
+              </h6>
+              <p>
+                Kyiv, Ukraine
+              </p>
+            </div>
             
           </b-col>
         </b-row>

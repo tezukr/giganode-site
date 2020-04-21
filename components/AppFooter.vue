@@ -83,14 +83,7 @@
           <b-col
           
           >
-            <div class="app-footer__item mb-0">
-              <h6 class="heading mb-40">
-                Address
-              </h6>
-              <p>
-                5th Floor, AH Building, 756 New Designst Melbourne, Australia
-              </p>
-            </div>
+            
           </b-col>
         </b-row>
       </b-container>

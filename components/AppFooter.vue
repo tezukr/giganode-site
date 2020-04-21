@@ -27,7 +27,7 @@
               </h6>
               <p>
                 <b-btn
-                  href="https://twitter.com/UkraineTezos"
+                  href="https://twitter.com/GigaNode"
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
@@ -35,7 +35,7 @@
                   <font-awesome-icon :icon="['fab', 'twitter']"/>
                 </b-btn>
                 <b-btn
-                  href="https://www.linkedin.com/company/tezosukraine"
+                  href="https://www.linkedin.com/company/43318559"
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
@@ -43,7 +43,7 @@
                   <font-awesome-icon :icon="['fab', 'linkedin']"/>
                 </b-btn>
                 <b-btn
-                  href="https://medium.com/@tezosukraine"
+                  href="https://medium.com/@giganode"
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
@@ -53,7 +53,7 @@
               </p>
               <p>
                 <b-btn
-                  href="#"
+                  href="https://www.reddit.com/user/giganode"
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"

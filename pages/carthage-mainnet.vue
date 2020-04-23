@@ -60,12 +60,12 @@
           <b-col lg="6">
             <div>
               <h1 class="title">
-                Main title
+                Cluster description
               </h1>
               <p class="p--accent">
-                Our organization is deeply committed to supporting the Tezos
-                network by developing a variety of useful analytics tools and
-                extending public infrastructure that boosts Tezos
+                Our cluster for mainnet consist of 4 full arhive nodes
+                behind load balancer, and split traffic between them (Round Robin),
+                we extending public infrastructure that boosts Tezos
                 technology mass adoption.
               </p>
             </div>

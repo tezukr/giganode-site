@@ -58,7 +58,7 @@ export default {
         },
         {
           percent: 99.67,
-          name: 'Carthage testnet',
+          name: 'Carthage testnet (v7.0-rc1)',
           desc: 'https://testnet-tezos.giganode.io',
           status: 'Online',
           to: "",

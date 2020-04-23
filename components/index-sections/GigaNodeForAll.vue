@@ -4,7 +4,7 @@
       <div class="grid__tile grid__tile--left">
         <div class="grid__item">
           <h3 class="title">
-            Giga Node for all
+            Giga Node For All
           </h3>
         
           <p class="p--accent mb-4">

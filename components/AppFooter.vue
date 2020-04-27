@@ -84,7 +84,7 @@
           
           >
          
-           <div class="app-footer__item mb-0">
+            <div class="app-footer__item mb-0">
               <h6 class="heading mb-40">
                 Address
               </h6>

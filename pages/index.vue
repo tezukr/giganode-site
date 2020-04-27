@@ -7,6 +7,7 @@
     <NodeService />
     <!--    <Testimonials />-->
     <Partners />
+    <StartUsing />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import NodeService from '../components/index-sections/NodeService'
 import About from '../components/index-sections/About'
 // import Testimonials from '../components/index-sections/Testimonials'
 import Partners from '../components/index-sections/Partners'
+import StartUsing from '../components/index-sections/StartUsing'
 
 export default {
   name: 'Index',
@@ -28,7 +30,8 @@ export default {
     NodeService,
     About,
     // Testimonials,
-    Partners
+    Partners,
+    StartUsing
   },
 }
 </script>

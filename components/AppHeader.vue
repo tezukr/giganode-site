@@ -9,7 +9,7 @@
       <b-btn
         class="btn--wide d-none d-lg-block"
         variant="success"
-        href="#footer"
+        href="#startUsing"
       >
         Start using now
       </b-btn>

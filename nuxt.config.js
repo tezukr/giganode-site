@@ -7,7 +7,10 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'This is a landing page presenting all the information about Tezos Giga Node' }
+      { hid: 'description', name: 'description', content: 'Your reliable Tezos RPC endpoints:\n' +
+          'Mainnet: mainnet-tezos.giganode.io\n' +
+          'Testnet: testnet-tezos.giganode.io\n' +
+          'Labnet: labnet-tezos.giganode.io' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

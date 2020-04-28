@@ -1,5 +1,8 @@
 <template>
-  <section id="startUsing">
+  <section 
+    id="startUsing" 
+    class="mt-5"
+  >
     <b-container>
       <h2 class="title text-center mb-5">Start using now</h2>
       

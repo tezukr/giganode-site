@@ -6,8 +6,8 @@
     <About />
     <NodeService />
     <!--    <Testimonials />-->
-    <Partners />
     <StartUsing />
+    <Partners />
   </main>
 </template>
 

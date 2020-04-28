@@ -15,21 +15,21 @@
           In order to change your current node please open your client
           config file nano .tezos-client/config, modifying t
           he following variables:
-    
-          <ol>
-            <li>
-              <code>"node_addr": "https://mainnet-tezos.giganode.io"</code>
-            </li>
-            <li>
-              <code>"node_port": 443</code>
-            </li>
-            <li>
-              <code>
-                "tls": true
-              </code>
-            </li>
-          </ol>
         </p>
+  
+        <ol>
+          <li>
+            <code>"node_addr": "https://mainnet-tezos.giganode.io"</code>
+          </li>
+          <li>
+            <code>"node_port": 443</code>
+          </li>
+          <li>
+            <code>
+              "tls": true
+            </code>
+          </li>
+        </ol>
       </div>
   
       <div>

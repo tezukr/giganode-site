@@ -18,7 +18,7 @@
         in no time while maintaining it further for you.
       </p>
   
-      <a href="#">Contact us</a>
+      <a href="mailto:info@giganode.io">Contact us</a>
     </div>
   </section>
 </template>

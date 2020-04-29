@@ -10,7 +10,12 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Your reliable Tezos RPC endpoints:\n' +
           'Mainnet: https://mainnet-tezos.giganode.io\n' +
           'Testnet: https://testnet-tezos.giganode.io\n' +
-          'Labnet: https://labnet-tezos.giganode.io' }
+          'Labnet: https://labnet-tezos.giganode.io' },
+      // Open graph meta-tags
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: 'https://giganode.io/' },
+      { property: 'og:image', content: '/og.png' },
+      { property: 'og:site_name', content: 'Tezos Giga Node' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

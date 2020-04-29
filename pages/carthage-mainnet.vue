@@ -6,10 +6,10 @@
           <b-col lg="3">
             <div class="mb-4">
               <h4 class="title title--tiny">
-                Tezos Giga Node
+                HTTPS://MAINNET-TEZOS.GIGANODE.IO
               </h4>
               <div class="grey fw-medium">
-                Carthage mainnet - HTTPS://MAINNET-TEZOS.GIGANODE.IO
+                Carthage mainnet
               </div>
             </div>
   
@@ -60,7 +60,7 @@
           <b-col lg="6">
             <div>
               <h1 class="title">
-                HTTPS://MAINNET-TEZOS.GIGANODE.IO
+                Our cluster
               </h1>
               <p class="p--accent">
                 Our cluster for mainnet consist of 4 full arhive nodes

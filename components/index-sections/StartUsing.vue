@@ -4,7 +4,7 @@
     class="mt-5"
   >
     <b-container>
-      <h2 class="title text-center mb-5">Start using now</h2>
+      <h2 class="title text-center mb-5">Start Using Now</h2>
       
       <div class="mb-4">
         <h4 class="title fs-21">Tezos Wallet Command Line Interface (CLI)</h4>
@@ -85,8 +85,8 @@
         <h4 class="title fs-21">Tezos native client</h4>
         <p><em>bash:</em></p>
         
-        <code>$ tezos-client -S -A mainnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code>
-        <code>$ tezos-client -S -A testnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code>
+        <code>$ tezos-client -S -A mainnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code><br>
+        <code>$ tezos-client -S -A testnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code><br>
         <code>$ tezos-client -S -A labnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code>
       </div>
   

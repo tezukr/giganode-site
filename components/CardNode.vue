@@ -8,7 +8,21 @@
         <div>
           <div class="mb-2">
             <div class="name">{{ nodeData.name }}</div>
-            <div class="desc">{{ nodeData.desc }}</div>
+            <a
+              v-if="nodeData.desc.isLink"
+              :href="nodeData.desc.content"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="desc"
+            >
+              {{ nodeData.desc.content }}
+            </a>
+            <div
+              v-else
+              class="desc"
+            >
+              {{ nodeData.desc.content }}
+            </div>
             <div class="card-node__status">
               <AppCircle
                 small

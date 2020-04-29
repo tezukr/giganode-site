@@ -51,21 +51,30 @@ export default {
         {
           percent: 99.87,
           name: 'Carthage mainnet',
-          desc: 'https://mainnet-tezos.giganode.io',
+          desc: {
+            isLink: true,
+            content: 'https://mainnet-tezos.giganode.io'
+          },
           status: 'Online',
           to: "carthage-mainnet",
         },
         {
           percent: 99.67,
           name: 'Carthage testnet (v7.0-rc1)',
-          desc: 'https://testnet-tezos.giganode.io',
+          desc: {
+            isLink: true,
+            content: 'https://testnet-tezos.giganode.io'
+          },
           status: 'Online',
           to: "",
         },
         {
           percent: 99.77,
           name: 'Labnet testnet',
-          desc: 'https://labnet-tezos.giganode.io',
+          desc: {
+            isLink: true,
+            content: 'https://labnet-tezos.giganode.io'
+          },
           status: 'Online',
           to: "",
         }

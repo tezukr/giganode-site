@@ -9,7 +9,7 @@
                 Tezos Giga Node
               </h4>
               <div class="grey fw-medium">
-                Carthage mainnet
+                Carthage mainnet - HTTPS://MAINNET-TEZOS.GIGANODE.IO
               </div>
             </div>
   
@@ -60,7 +60,7 @@
           <b-col lg="6">
             <div>
               <h1 class="title">
-                Cluster description
+                HTTPS://MAINNET-TEZOS.GIGANODE.IO
               </h1>
               <p class="p--accent">
                 Our cluster for mainnet consist of 4 full arhive nodes

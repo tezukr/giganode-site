@@ -59,7 +59,7 @@ export default {
         { text: 'Usage', to: { name: 'index', hash: '#startUsing' }, isInnerLink: true },
         { text: 'Service', to: { name: 'index', hash: '#service' }, isInnerLink: true },
         { text: 'About', to: { name: 'index', hash: '#about' }, isInnerLink: true },
-        { text: 'Blog', to: 'https://medium.com/@tezosukraine', isInnerLink: false },
+        { text: 'Blog', to: 'https://medium.com/@giganode', isInnerLink: false },
       ]
     }
   },

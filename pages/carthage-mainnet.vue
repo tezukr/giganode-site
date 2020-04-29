@@ -60,7 +60,7 @@
           <b-col lg="6">
             <div>
               <h1 class="title">
-                Our cluster
+                RPC Cluster
               </h1>
               <p class="p--accent">
                 Our cluster for mainnet consist of 4 full arhive nodes

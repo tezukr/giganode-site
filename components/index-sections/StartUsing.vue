@@ -94,8 +94,8 @@
         <h4 class="title fs-21">Curl</h4>
         <p><em>bash:</em></p>
     
-        <code>$ curl https://mainnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
-        <code>$ curl https://testnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
+        <code>$ curl https://mainnet-tezos.giganode.io/chains/main/blocks/head/protocols</code><br>
+        <code>$ curl https://testnet-tezos.giganode.io/chains/main/blocks/head/protocols</code><br>
         <code>$ curl https://labnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
       </div>
   
@@ -103,8 +103,8 @@
         <h4 class="title fs-21">Wget</h4>
         <p><em>bash:</em></p>
     
-        <code>$ wget -O - https://mainnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
-        <code>$ wget -O - https://testnnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
+        <code>$ wget -O - https://mainnet-tezos.giganode.io/chains/main/blocks/head/protocols</code><br>
+        <code>$ wget -O - https://testnnet-tezos.giganode.io/chains/main/blocks/head/protocols</code><br>
         <code>$ wget -O - https://labnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
       </div>
     </b-container>

@@ -86,6 +86,8 @@
         <p><em>bash:</em></p>
         
         <code>$ tezos-client -S -A mainnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code>
+        <code>$ tezos-client -S -A testnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code>
+        <code>$ tezos-client -S -A labnet-tezos.giganode.io -P 443 rpc get /chains/main/blocks/head/protocols</code>
       </div>
   
       <div class="mb-4">
@@ -93,6 +95,8 @@
         <p><em>bash:</em></p>
     
         <code>$ curl https://mainnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
+        <code>$ curl https://testnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
+        <code>$ curl https://labnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
       </div>
   
       <div class="mb-4">
@@ -100,6 +104,8 @@
         <p><em>bash:</em></p>
     
         <code>$ wget -O - https://mainnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
+        <code>$ wget -O - https://testnnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
+        <code>$ wget -O - https://labnet-tezos.giganode.io/chains/main/blocks/head/protocols</code>
       </div>
     </b-container>
   </section>

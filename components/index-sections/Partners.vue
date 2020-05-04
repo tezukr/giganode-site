@@ -5,7 +5,7 @@
         Our Partners
       </h2>
       <h6 class="subtitle">
-        Your reliable public infrastructure
+        Already trusting us
       </h6>
     </div>
       

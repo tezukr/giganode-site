@@ -32,7 +32,7 @@
           <img
             class="max-w-100"
             src="~assets/img/shapes/animation-2.svg"
-            alt="Animation"
+            alt="Nodes"
           >
         </div>
       </div>

@@ -52,7 +52,7 @@
           </b-col>
           
           <b-col>
-            <Circles class="mx-auto" />
+            <NodesLinks class="mx-auto" />
           </b-col>
         </b-row>
         
@@ -144,15 +144,15 @@
 </template>
 
 <script>
-import AppCircle from '../components/AppCircle'
-import Circles from '../components/Circles'
-import BalancerTable from '../components/BalancerTable'
+import AppCircle from '../components/AppCircle';
+import NodesLinks from '../components/NodesLinks';
+import BalancerTable from '../components/BalancerTable';
 
 export default {
   name: 'CarthageMainnet',
   components: {
     AppCircle,
-    Circles,
+    NodesLinks,
     BalancerTable
   }
 };

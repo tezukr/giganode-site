@@ -80,7 +80,8 @@ module.exports = {
     componentPlugins: [
       'LayoutPlugin',
       'ButtonPlugin',
-      'TablePlugin'
+      'TablePlugin',
+      'TooltipPlugin'
     ]
   },
 };

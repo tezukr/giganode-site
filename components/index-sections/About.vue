@@ -11,7 +11,21 @@
           </h3>
       
           <p class="p--accent mb-4">
-            In a joint effort, <a href="https://everstake.one" target="_blank">Everstake</a> and <a href="https://bakenrolls.com" target="_blank">Bake’n’Rolls</a> created the organization
+            In a joint effort,
+            <a
+              href="https://everstake.one" 
+              target="_blank"
+            >
+              Everstake
+            </a>
+            and
+            <a
+              href="https://bakenrolls.com"
+              target="_blank"
+            >
+              Bake’n’Rolls
+            </a>
+            created the organization
             Tezos Ukraine which is deeply committed to supporting the Tezos network
             by developing a variety of useful analytics tools and extending public
             infrastructure that boosts Tezos technology mass adoption.

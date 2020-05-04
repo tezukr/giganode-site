@@ -50,14 +50,7 @@
               alt="Connection"
             >
           </div>
-  
-          <a
-            href="#"
-            target="_blank"
-            class="fw-bold"
-          >
-            Resources
-          </a>
+ 
         </div>
       </div>
     </div>

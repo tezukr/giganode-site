@@ -8,28 +8,28 @@
     
     <div class="nodes__links">
       <div
-        v-b-tooltip.hover
+        v-b-tooltip.hover="{ customClass: 'tooltip-c' }"
         title="main0.tezos.net.everstake.one"
         class="nodes__link"
       >
         <!--   hidden   -->
       </div>
       <div
-        v-b-tooltip.hover
+        v-b-tooltip.hover="{ customClass: 'tooltip-c' }"
         title="main1.tezos.net.everstake.one"
         class="nodes__link"
       >
         <!--   hidden   -->
       </div>
       <div
-        v-b-tooltip.hover
+        v-b-tooltip.hover="{ customClass: 'tooltip-c' }"
         title="main0.tezos.net.bakenrolls.com"
         class="nodes__link"
       >
         <!--   hidden   -->
       </div>
       <div
-        v-b-tooltip.hover
+        v-b-tooltip.hover="{ customClass: 'tooltip-c' }"
         title="main0.tezos.net.bakenrolls.com"
         class="nodes__link"
       >

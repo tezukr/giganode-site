@@ -26,7 +26,13 @@
               Bake’n’Rolls
             </a>
             created the organization
-            Tezos Ukraine which is deeply committed to supporting the Tezos network
+            <a
+              href="https://tezos.org.ua"
+              target="_blank"
+            >
+              Tezos Ukraine
+            </a>
+            which is deeply committed to supporting the Tezos network
             by developing a variety of useful analytics tools and extending public
             infrastructure that boosts Tezos technology mass adoption.
           </p>

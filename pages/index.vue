@@ -2,7 +2,7 @@
   <main>
     <Intro />
     <GigaNodeForAll />
-    <NodeUsers />
+    <!--    <NodeUsers />-->
     <About />
     <NodeService />
     <!--    <Testimonials />-->
@@ -14,7 +14,7 @@
 <script>
 import Intro from '../components/index-sections/Intro'
 import GigaNodeForAll from '../components/index-sections/GigaNodeForAll'
-import NodeUsers from '../components/index-sections/NodeUsers'
+// import NodeUsers from '../components/index-sections/NodeUsers'
 import NodeService from '../components/index-sections/NodeService'
 import About from '../components/index-sections/About'
 // import Testimonials from '../components/index-sections/Testimonials'
@@ -26,7 +26,7 @@ export default {
   components: {
     Intro,
     GigaNodeForAll,
-    NodeUsers,
+    // NodeUsers,
     NodeService,
     About,
     // Testimonials,

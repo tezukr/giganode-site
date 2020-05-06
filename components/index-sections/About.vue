@@ -15,6 +15,7 @@
             <a
               href="https://everstake.one" 
               target="_blank"
+              rel="noopener noreferrer"
             >
               Everstake
             </a>
@@ -22,13 +23,15 @@
             <a
               href="https://bakenrolls.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Bake’n’Rolls
             </a>
             created the organization
             <a
-              href="https://tezos.org.ua"
+              href="https://tezos.org.ua/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Tezos Ukraine
             </a>

@@ -5,7 +5,8 @@
   >
     <div class="node-service__inner">
       <h2 class="title title--large title--large-resp mb-4">
-        Tezos Archive Full Node As a Service (NaaS)
+        Tezos Archive Full <br>
+        Node As a Service (NaaS)
       </h2>
   
       <p class="mb-5">

@@ -95,15 +95,17 @@ export default {
   .card-node {
     transition: all 0.2s;
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-    max-width: 420px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 420px !important;
     
     &__percent {
       font-size: $fs-28;
       margin-right: 20px;
       @include from-laptop-down {
         font-size: $fs-21;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
       }
       @include lg-down {
         font-size: $fs-18;

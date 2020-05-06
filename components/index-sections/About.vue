@@ -15,6 +15,7 @@
             <a
               href="https://everstake.one" 
               target="_blank"
+              rel="noopener noreferrer"
             >
               Everstake
             </a>
@@ -22,11 +23,19 @@
             <a
               href="https://bakenrolls.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Bake’n’Rolls
             </a>
             created the organization
-            Tezos Ukraine which is deeply committed to supporting the Tezos network
+            <a
+              href="https://tezos.org.ua/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tezos Ukraine
+            </a>
+            which is deeply committed to supporting the Tezos network
             by developing a variety of useful analytics tools and extending public
             infrastructure that boosts Tezos technology mass adoption.
           </p>

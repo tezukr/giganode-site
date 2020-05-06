@@ -8,15 +8,26 @@
         <div>
           <div class="mb-2">
             <div class="name">{{ nodeData.name }}</div>
-            <a
-              v-if="nodeData.desc.isLink"
-              :href="nodeData.desc.content"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="desc"
-            >
-              {{ nodeData.desc.content }}
-            </a>
+            <div v-if="nodeData.desc.isLink">
+              <a
+                :ref="nodeData.name"
+                :href="nodeData.desc.content"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="desc"
+              >
+                {{ nodeData.desc.content }}
+              </a>
+              
+              <b-btn
+                variant="link"
+                size="sm"
+                class="fs-12 pl-1 pr-0"
+                @click="copy(nodeData.name)"
+              >
+                <font-awesome-icon :icon="['fas', 'copy']"/>
+              </b-btn>
+            </div>
             <div
               v-else
               class="desc"
@@ -70,6 +81,11 @@ export default {
         }
       },
     },
+  },
+  methods: {
+    copy(ref) {
+      navigator.clipboard.writeText(this.$refs[ref].innerHTML)
+    }
   }
 };
 </script>
@@ -79,10 +95,9 @@ export default {
   .card-node {
     transition: all 0.2s;
     position: relative;
-    @include lg-down {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 420px;
     
     &__percent {
       font-size: $fs-28;

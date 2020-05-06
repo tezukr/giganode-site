@@ -101,7 +101,7 @@
           <h2 class="title">Network Traffic Basic</h2>
         </b-container>
         <iframe
-          src="https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=1587805978947&to=1587978778947&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157"
+          :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157`"
           width="100%"
           height="500"
           frameborder="0"/>
@@ -112,7 +112,7 @@
           <h2 class="title">Network Sockstat</h2>
         </b-container>
         <iframe 
-          src="https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=1587806458813&to=1587979258813&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=158"
+          :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=158`"
           width="100%"
           height="500"
           frameborder="0"/>
@@ -123,7 +123,7 @@
           <h2 class="title">CPU Basic</h2>
         </b-container>
         <iframe 
-          src="https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=1587806491789&to=1587979291789&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=7"
+          :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=7`"
           width="100%"
           height="500"
           frameborder="0"/>
@@ -133,8 +133,8 @@
         <b-container>
           <h2 class="title">System Load</h2>
         </b-container>
-        <iframe 
-          src="https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Zz/monitor-net-tezos-org-ua?orgId=1&from=1587806738718&to=1587979538718&var-job=tezos_org_ua_exporter&var-hostname=All&var-node=All&var-maxmount=%2Fmnt%2Foperational&var-env=&var-name=&theme=light&panelId=13"
+        <iframe
+          :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&panelId=13&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light`"
           width="100%"
           height="500"
           frameborder="0"/>
@@ -147,6 +147,7 @@
 import AppCircle from '../components/AppCircle';
 import NodesLinks from '../components/NodesLinks';
 import BalancerTable from '../components/BalancerTable';
+import graphanaFromTo from '../mixins/graphanaFromTo';
 
 export default {
   name: 'CarthageMainnet',
@@ -154,7 +155,8 @@ export default {
     AppCircle,
     NodesLinks,
     BalancerTable
-  }
+  },
+  mixins: [graphanaFromTo],
 };
 </script>
 

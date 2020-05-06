@@ -29,7 +29,7 @@
     
     <div>
       <iframe
-        src="https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=1587805978947&to=1587978778947&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157"
+        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157`"
         width="100%"
         height="500"
         frameborder="0"/>
@@ -38,13 +38,15 @@
 </template>
 
 <script>
-import CardNode from '../../components/CardNode'
+import CardNode from '../../components/CardNode';
+import graphanaFromTo from '../../mixins/graphanaFromTo';
 
 export default {
   name: 'Intro',
   components: {
     CardNode,
   },
+  mixins: [graphanaFromTo],
   data() {
     return {
       nodes: [

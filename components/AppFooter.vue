@@ -31,7 +31,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
-                  class="btn--social mr-3">
+                  class="btn--social mr-2">
                   <font-awesome-icon :icon="['fab', 'twitter']"/>
                 </b-btn>
                 <b-btn
@@ -39,7 +39,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
-                  class="btn--social mr-3">
+                  class="btn--social mr-2">
                   <font-awesome-icon :icon="['fab', 'linkedin']"/>
                 </b-btn>
                 <b-btn
@@ -47,11 +47,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   size="sm"
-                  class="btn--social mr-3">
+                  class="btn--social mr-2">
                   <font-awesome-icon :icon="['fab', 'medium']"/>
                 </b-btn>
-              </p>
-              <p>
                 <b-btn
                   href="https://www.reddit.com/user/giganode"
                   target="_blank"
@@ -61,6 +59,16 @@
                   <font-awesome-icon :icon="['fab', 'reddit']"/>
                 </b-btn>
               </p>
+              <!--              <p>-->
+              <!--                <b-btn-->
+              <!--                  href="https://www.reddit.com/user/giganode"-->
+              <!--                  target="_blank"-->
+              <!--                  rel="noopener noreferrer"-->
+              <!--                  size="sm"-->
+              <!--                  class="btn&#45;&#45;social">-->
+              <!--                  <font-awesome-icon :icon="['fab', 'reddit']"/>-->
+              <!--                </b-btn>-->
+              <!--              </p>-->
             </div>
           </b-col>
           <b-col
@@ -73,7 +81,8 @@
                 Contact
               </h6>
               <p>
-                Any time, We are on duty 24/7 <br>
+                Any time, <br>
+                We are on duty 24/7 <br>
                 <a href="mailto:info@giganode.io">
                   info@giganode.io
                 </a>

@@ -8,36 +8,123 @@
         Already trusting us
       </h6>
     </div>
-      
+    
     <div class="partners__items">
-      <div class="partners__item">
-        <img
-          class="s"
-          src="~assets/img/partners/tezos-notif.svg"
-          alt="Firstudio"
+      <div
+        v-for="(partner, index) in partners"
+        :key="index"
+        class="partners__item"
+      >
+        <a
+          :href="partner.href"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-      </div>
-      <div class="partners__item">
-        <img
-          class="s"
-          src="~assets/img/partners/trd.svg"
-          alt="Firstudio"
-        >
-      </div>
-      <div class="partners__item">
-        <img
-          class="s"
-          src="~assets/img/partners/trust.svg"
-          alt="Firstudio"
-        >
+          <img
+            :src="partner.imgPath"
+            :alt="partner.alt"
+            class="s"
+          >
+        </a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import trd from '../../assets/img/partners/trd.png';
+import tezosNotif from '../../assets/img/partners/tezos-notif.png';
+import tc from '../../assets/img/partners/tc.png'
+import tq from '../../assets/img/partners/tq-tezos.png'
+import trust from '../../assets/img/partners/trust.png'
+import taquito from '../../assets/img/partners/taquito.png'
+import kukai from '../../assets/img/partners/kukai.png'
+import bakingbad from '../../assets/img/partners/bakingbad.png'
+import stove from '../../assets/img/partners/stove.png'
+import bcd from '../../assets/img/partners/bcd.png'
+import tzkt from '../../assets/img/partners/tzkt.png'
+import tulip from '../../assets/img/partners/tulip.png'
+import madfish from '../../assets/img/partners/madfish.png'
+import thanosWallet from '../../assets/img/partners/thanos-wallet.png'
+
 export default {
-  name: 'Partners'
+  name: 'Partners',
+  data() {
+    return {
+      partners: [
+        {
+          href: 'https://github.com/habanoz/tezos-reward-distributor',
+          imgPath: trd,
+          alt: "Tezos Reward Distributor"
+        },
+        {
+          href: 'https://tzsnt.fr',
+          imgPath: tezosNotif,
+          alt: "Tezos Notifier"
+        },
+        {
+          href: 'https://tezoscommons.org',
+          imgPath: tc,
+          alt: "Tezos Commons"
+        },
+        {
+          href: 'https://tqtezos.com',
+          imgPath: tq,
+          alt: "TQ Tezos"
+        },
+        {
+          href: 'https://trustwallet.com',
+          imgPath: trust,
+          alt: "Trust Wallet"
+        },
+        {
+          href: 'https://tezostaquito.io',
+          imgPath: taquito,
+          alt: "Tezos Taquito"
+        },
+        {
+          href: 'https://kukai.app',
+          imgPath: kukai,
+          alt: "Kukai"
+        },
+        {
+          href: 'https://baking-bad.org',
+          imgPath: bakingbad,
+          alt: "Baking Bad"
+        },
+        {
+          href: 'https://stove-labs.com',
+          imgPath: stove,
+          alt: "Stove labs"
+        },
+        {
+          href: 'https://better-call.dev',
+          imgPath: bcd,
+          alt: "Better Call Dev"
+        },
+        {
+          href: 'https://tzkt.io',
+          imgPath: tzkt,
+          alt: "TzKT Explorer"
+        },
+        {
+          href: 'https://tulip.tools',
+          imgPath: tulip,
+          alt: "Tulip Tools"
+        },
+        {
+          href: 'https://www.madfish.solutions',
+          imgPath: madfish,
+          alt: "Madfish Solutions"
+        },
+        {
+          href: 'https://thanoswallet.com',
+          imgPath: thanosWallet,
+          alt: "Thanos Wallet"
+        }
+      ]
+    };
+  }
 };
 </script>
 
@@ -63,30 +150,18 @@ export default {
     }
     
     &__items {
-      flex-wrap: wrap;
-      display: flex;
-      justify-content: center;
-      max-width: 970px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      max-width: 1400px;
+      grid-row-gap: 30px;
       margin: 0 auto;
-    }
-    
-    &__item {
-      margin: 0 30px 30px;
-      @include lg-down {
-        margin-bottom: 30px;
-      }
-      
-      &:last-child {
-        @include lg-down {
-          margin-bottom: 0;
-        }
-      }
+      align-items: center;
     }
   }
   
   .s {
     max-height: 50px;
-    max-width: 300px;
+    max-width: 220px;
   }
   
 </style>

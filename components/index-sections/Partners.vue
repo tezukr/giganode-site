@@ -46,6 +46,7 @@ import tzkt from '../../assets/img/partners/tzkt.png'
 import tulip from '../../assets/img/partners/tulip.png'
 import madfish from '../../assets/img/partners/madfish.png'
 import thanosWallet from '../../assets/img/partners/thanos-wallet.png'
+import galleon from '../../assets/img/partners/galleon.png'
 
 export default {
   name: 'Partners',
@@ -121,6 +122,11 @@ export default {
           href: 'https://thanoswallet.com',
           imgPath: thanosWallet,
           alt: "Thanos Wallet"
+        },
+        {
+          href: 'http://cryptonomic.tech/galleon.html',
+          imgPath: galleon,
+          alt: "Galleon"
         }
       ]
     };

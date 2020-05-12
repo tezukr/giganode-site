@@ -47,6 +47,7 @@ import tulip from '../../assets/img/partners/tulip.png'
 import madfish from '../../assets/img/partners/madfish.png'
 import thanosWallet from '../../assets/img/partners/thanos-wallet.png'
 import galleon from '../../assets/img/partners/galleon.png'
+import tezzet from '../../assets/img/partners/tezzet.png'
 
 export default {
   name: 'Partners',
@@ -127,6 +128,11 @@ export default {
           href: 'http://cryptonomic.tech/galleon.html',
           imgPath: galleon,
           alt: "Galleon"
+        },
+        {
+          href: 'https://medium.com/@lmilfont/introducing-tezzet-desktop-wallet-86689e4aa2fb?sk=8f28ee7d880cfdb752026bbd76a3a5e7 ',
+          imgPath: tezzet,
+          alt: "Tezzet"
         }
       ]
     };

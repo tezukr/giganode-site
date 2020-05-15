@@ -13,8 +13,7 @@
           The easiest way to modify the node you are connecting
           to across many wallets is definitely Tezos CLI wallet.
           In order to change your current node please open your client
-          config file nano .tezos-client/config, modifying t
-          he following variables:
+          config file nano .tezos-client/config, modifying the following variables:
         </p>
   
         <ol>

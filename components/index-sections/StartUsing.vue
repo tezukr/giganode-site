@@ -19,7 +19,7 @@
   
         <ol>
           <li>
-            <code>"node_addr": "https://mainnet-tezos.giganode.io"</code>
+            <code>"node_addr": "mainnet-tezos.giganode.io"</code>
           </li>
           <li>
             <code>"node_port": 443</code>

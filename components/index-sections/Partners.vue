@@ -48,6 +48,7 @@ import madfish from '../../assets/img/partners/madfish.png'
 import thanosWallet from '../../assets/img/partners/thanos-wallet.png'
 import galleon from '../../assets/img/partners/galleon.png'
 import tezzet from '../../assets/img/partners/tezzet.png'
+import smartpy from '../../assets/img/partners/smartpy.png'
 
 export default {
   name: 'Partners',
@@ -133,6 +134,11 @@ export default {
           href: 'https://medium.com/@lmilfont/introducing-tezzet-desktop-wallet-86689e4aa2fb?sk=8f28ee7d880cfdb752026bbd76a3a5e7 ',
           imgPath: tezzet,
           alt: "Tezzet"
+        },
+        {
+          href: 'https://smartpy.io',
+          imgPath: smartpy,
+          alt: "Smartpy"
         }
       ]
     };

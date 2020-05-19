@@ -32,24 +32,32 @@
       </div>
       
       <div class="mb-4">
-        <h4 class="title fs-21">Galleon Wallet</h4>
+        <h4 class="title fs-21">Galleon Preview Wallet</h4>
   
         <p>
-          From the main menu click on the ‘Settings’ button in the top right corner.
+          Make sure to download the version from official
+          <a
+            href="https://github.com/Cryptonomic/Deployments/wiki/Galleon:-Releases"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Galleon Preview GitHub.
+          </a>
+        </p>
+        
+        <p>
+          On the Galleon GitHub page scroll down and pick the latest Galleon Preview
+          release corresponding to your operating system.
         </p>
         
         <img
-          src="~assets/img/start-using/galleon-wallet.png"
-          alt="TezBox Chrome Wallet Settings"
+          src="~assets/img/start-using/galleon-wallet-version.png"
+          alt="Galleon versions"
           class="w-100 mb-4"
         >
         
         <p>
-          Then scroll down and find ‘Choose a different node’ section.
-        </p>
-        
-        <p>
-          Click on the dropdown menu and choose ‘Add A Custom Node’.
+          Open Galleon Preview and from the main menu click on the ‘Settings’ button in the top right corner.
         </p>
   
         <img
@@ -59,25 +67,27 @@
         >
         
         <p>
-          Please note that you will be prompted to provide the API Key, but you simply have to leave this field empty.
+          Find ‘Choose a different node’ section.
+        </p>
+        <p>
+          Click on the dropdown menu and choose ‘Tezos Mainnet (nautilus.cloud + giganode.io)’
         </p>
   
         <img
-          src="~assets/img/start-using/galleon-wallet-address.png"
+          src="~assets/img/start-using/galleon-wallet-choose-node.png"
           alt="TezBox Chrome Wallet Settings"
           class="w-100 mb-4"
         >
         
         <p>
-          Enter the URL address of our node:
-          <a
-            href="https://mainnet-tezos.giganode.io"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            https://mainnet-tezos.giganode.io
-          </a>
+          Tezos Giga Node is now selected and you can return to using your Galleon Preview Wallet.
         </p>
+  
+        <img
+          src="~assets/img/start-using/galleon-wallet-ready.png"
+          alt="TezBox Chrome Wallet Settings"
+          class="w-100 mb-4"
+        >
       </div>
       
       <div class="mb-4">

@@ -11,7 +11,7 @@
         Your reliable public infrastructure
       </h6>
     </div>
-    
+
     <div class="intro__nodes">
       <CardNode
         v-for="(node, index) in nodes"
@@ -26,13 +26,19 @@
         class="intro__nodes-item"
       />
     </div>
-    
+
     <div>
+      <!--      <iframe-->
+      <!--        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157`"-->
+      <!--        width="100%"-->
+      <!--        height="500"-->
+      <!--        frameborder="0"/>-->
       <iframe
-        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157`"
+        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Zz/monitor-net-tezos-org-ua?orgId=1&panelId=157&from=${fromTimestamp}&to=${toTimestamp}&var-job=tezos_org_ua_exporter&var-hostname=All&var-node=All&var-maxmount=%2Fmnt%2Foperational&var-env=&var-name=&theme=light`"
         width="100%"
         height="500"
-        frameborder="0"/>
+        frameborder="0"
+      />
     </div>
   </section>
 </template>
@@ -97,7 +103,7 @@ export default {
     @include md-down {
       padding-top: 40px;
     }
-    
+
     &__top {
       text-align: center;
       margin-bottom: 50px;
@@ -105,7 +111,7 @@ export default {
         margin-bottom: 24px;
       }
     }
-    
+
     &__nodes {
       display: flex;
       justify-content: center;
@@ -116,7 +122,7 @@ export default {
         margin-bottom: 0;
       }
     }
-  
+
     &__nodes-item {
       margin: 0 15px;
       @include lg-down {
@@ -124,5 +130,5 @@ export default {
       }
     }
   }
-  
+
 </style>

@@ -15,9 +15,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="desc"
-              >
-                {{ nodeData.desc.content }}
-              </a>
+              >{{ nodeData.desc.content }}</a>
 
               <b-btn
                 variant="link"

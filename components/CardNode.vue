@@ -18,7 +18,7 @@
               >
                 {{ nodeData.desc.content }}
               </a>
-              
+
               <b-btn
                 variant="link"
                 size="sm"
@@ -42,8 +42,8 @@
               {{ nodeData.status }}
             </div>
           </div>
-          <div 
-            v-if="nodeData.to" 
+          <div
+            v-if="nodeData.to"
             class="card-node__link">
             <n-link
               :to="{ name: nodeData.to }"
@@ -98,7 +98,7 @@ export default {
     padding-left: 10px !important;
     padding-right: 10px !important;
     max-width: 420px !important;
-    
+
     &__percent {
       font-size: $fs-28;
       margin-right: 20px;
@@ -112,7 +112,7 @@ export default {
         margin-right: 10px;
       }
     }
-    
+
     &__status {
       color: $grey;
       display: flex;
@@ -121,13 +121,13 @@ export default {
         font-size: $fs-14;
       }
     }
-  
+
     &__link {
       visibility: hidden;
       opacity: 0;
       transition: all 0.2s;
     }
-    
+
     &:after {
       content: '';
       display: block;
@@ -139,19 +139,19 @@ export default {
       background-color: $color-brand;
       transition: all 0.2s;
     }
-    
+
     &:hover {
       box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
-      
+
       .card-node__link {
         visibility: visible;
         opacity: 1;
       }
-      
+
       &:after {
         width: 100%;
       }
     }
   }
-  
+
 </style>

@@ -28,13 +28,8 @@
     </div>
 
     <div>
-      <!--      <iframe-->
-      <!--        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light&panelId=157`"-->
-      <!--        width="100%"-->
-      <!--        height="500"-->
-      <!--        frameborder="0"/>-->
       <iframe
-        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Zz/monitor-net-tezos-org-ua?orgId=1&panelId=157&from=${fromTimestamp}&to=${toTimestamp}&var-job=tezos_org_ua_exporter&var-hostname=All&var-node=All&var-maxmount=%2Fmnt%2Foperational&var-env=&var-name=&theme=light`"
+        :src="`https://monitor-net.tezos.org.ua/d-solo/hb7fSE0Z22/monitor-giganode-io?orgId=1&panelId=157&from=${fromTimestamp}&to=${toTimestamp}&var-job=giganode_io_exporter&var-hostname=All&var-node=All&var-maxmount=&var-env=&var-name=&theme=light`"
         width="100%"
         height="500"
         frameborder="0"
@@ -44,52 +39,52 @@
 </template>
 
 <script>
-import CardNode from '../../components/CardNode';
-import graphanaFromTo from '../../mixins/graphanaFromTo';
+  import CardNode from '../../components/CardNode';
+  import graphanaFromTo from '../../mixins/graphanaFromTo';
 
-export default {
-  name: 'Intro',
-  components: {
-    CardNode,
-  },
-  mixins: [graphanaFromTo],
-  data() {
-    return {
-      nodes: [
-        {
-          percent: 99.87,
-          name: 'Carthage mainnet',
-          desc: {
-            isLink: true,
-            content: 'https://mainnet-tezos.giganode.io'
+  export default {
+    name: 'Intro',
+    components: {
+      CardNode,
+    },
+    mixins: [graphanaFromTo],
+    data() {
+      return {
+        nodes: [
+          {
+            percent: 99.87,
+            name: 'Carthage mainnet',
+            desc: {
+              isLink: true,
+              content: 'https://mainnet-tezos.giganode.io'
+            },
+            status: 'Online',
+            to: "carthage-mainnet",
           },
-          status: 'Online',
-          to: "carthage-mainnet",
-        },
-        {
-          percent: 99.67,
-          name: 'Carthage testnet (v7.2)',
-          desc: {
-            isLink: true,
-            content: 'https://testnet-tezos.giganode.io'
+          {
+            percent: 99.67,
+            name: 'Carthage testnet (v7.2)',
+            desc: {
+              isLink: true,
+              content: 'https://testnet-tezos.giganode.io'
+            },
+            status: 'Online',
+            to: "",
           },
-          status: 'Online',
-          to: "",
-        },
-        {
-          percent: 99.77,
-          name: 'Labnet testnet',
-          desc: {
-            isLink: true,
-            content: 'https://labnet-tezos.giganode.io'
-          },
-          status: 'Online',
-          to: "",
-        }
-      ]
-    };
-  }
-};
+          {
+            percent: 99.77,
+            name: 'Labnet testnet',
+            desc: {
+              isLink: true,
+              content: 'https://labnet-tezos.giganode.io'
+            },
+            status: 'Online',
+            to: "",
+          }
+        ]
+      };
+    }
+  };
 </script>
 
 <style lang="scss" scoped>

@@ -33,14 +33,14 @@
         
         <p>
         <center>MAINNET:
-           <a href="https://ipfs-tezos.giganode.io/ipfs/QmeAvj1wRTjcmq6xDwN8s13X7URnzPfrCZGJw2meeuxr3n" target="_blank" class="link">IPFS</a>|WEB
+           <a href="https://ipfs-tezos.giganode.io/ipfs/QmeAvj1wRTjcmq6xDwN8s13X7URnzPfrCZGJw2meeuxr3n" target="_blank" class="link">IPFS</a>|<a href="https://snapshots-tezos.giganode.io/mainnet-peers" target="_blank" class="link">WEB</a>
         </center>
         </p>
 
         <p>
         <center>
            TESTNET:
-           <a href="https://ipfs-tezos.giganode.io/ipfs/Qmd6p1d15AQvh3yFNmTYKwU58wZrpYWm3ggPTzcyk8MtZ9" target="_blank" class="link">IPFS</a>|WEB
+           <a href="https://ipfs-tezos.giganode.io/ipfs/Qmd6p1d15AQvh3yFNmTYKwU58wZrpYWm3ggPTzcyk8MtZ9" target="_blank" class="link">IPFS</a>|<a href="https://snapshots-tezos.giganode.io/testnet-peers" target="_blank" class="link">WEB</a>
         </center>
         </p>        
       </div>

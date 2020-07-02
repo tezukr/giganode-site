@@ -44,7 +44,7 @@ module.exports = {
       }
     }
   },
-  
+
   css: [
     // SCSS file in the project
     '@/assets/scss/main.scss'
@@ -52,6 +52,7 @@ module.exports = {
   modules: [
     '@nuxtjs/style-resources',
     'bootstrap-vue/nuxt',
+    'vue-scrollto/nuxt',
     [
       'nuxt-fontawesome',
       {

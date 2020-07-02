@@ -15,13 +15,21 @@
         }"
         @click="$emit('link-click', true)"
       >
-        <a
+        <!--        <a-->
+        <!--          v-if="currRoute === 'index' && navItem.to.hash"-->
+        <!--          :href="navItem.to.hash"-->
+        <!--          class="navigation-link"-->
+        <!--        >-->
+        <!--          {{ navItem.text }}-->
+        <!--        </a>-->
+        <n-link
+          v-scroll-to="{el: navItem.to.hash}"
           v-if="currRoute === 'index' && navItem.to.hash"
-          :href="navItem.to.hash"
+          :to="{path: '/', hash: navItem.to.hash}"
           class="navigation-link"
         >
           {{ navItem.text }}
-        </a>
+        </n-link>
         <a
           v-else-if="!navItem.isInnerLink && !navItem.to.hash"
           :href="navItem.to"
@@ -44,32 +52,32 @@
 </template>
 
 <script>
-export default {
-  name: 'AppNav',
-  props: {
-    mobile: {
-      type: Boolean,
-      default: false
+  export default {
+    name: 'AppNav',
+    props: {
+      mobile: {
+        type: Boolean,
+        default: false
+      },
     },
-  },
-  data() {
-    return {
-      navItems: [
-        { text: 'Home', to: { name: 'index' }, isInnerLink: true },
-        { text: 'Usage', to: { name: 'index', hash: '#startUsing' }, isInnerLink: true },
-        { text: 'Service', to: { name: 'index', hash: '#service' }, isInnerLink: true },
-        { text: 'Features', to: { name: 'index', hash: '#features' }, isInnerLink: true },
-        { text: 'About', to: { name: 'index', hash: '#about' }, isInnerLink: true },
-        { text: 'Blog', to: 'https://medium.com/@giganode', isInnerLink: false },
-      ]
-    }
-  },
-  computed: {
-    currRoute() {
-      return this.$route.name;
+    data() {
+      return {
+        navItems: [
+          {text: 'Home', to: {name: 'index'}, isInnerLink: true},
+          {text: 'Usage', to: {name: 'index', hash: '#startUsing'}, isInnerLink: true},
+          {text: 'Service', to: {name: 'index', hash: '#service'}, isInnerLink: true},
+          {text: 'Features', to: {name: 'index', hash: '#features'}, isInnerLink: true},
+          {text: 'About', to: {name: 'index', hash: '#about'}, isInnerLink: true},
+          {text: 'Blog', to: 'https://medium.com/@giganode', isInnerLink: false},
+        ],
+      }
     },
-  },
-};
+    computed: {
+      currRoute() {
+        return this.$route.name;
+      },
+    },
+  };
 </script>
 
 <style lang="scss" scoped>

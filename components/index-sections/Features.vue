@@ -26,13 +26,18 @@
         </p>        
         
         <h3 class="title mb-2">
-           - GIGANODE IPFS/WEB LINKS FOR MAINNET/TESTNES PEER LISTS
-           MAINNET:
-           <a href="https://ipfs-tezos.giganode.io/ipfs/QmeAvj1wRTjcmq6xDwN8s13X7URnzPfrCZGJw2meeuxr3n" target="_blank" class="link">IPFS</a>|WEB
-           TESTNET:
-           <a href="https://ipfs-tezos.giganode.io/ipfs/Qmd6p1d15AQvh3yFNmTYKwU58wZrpYWm3ggPTzcyk8MtZ9" target="_blank" class="link">IPFS</a>|WEB
+           - GIGANODE IPFS/WEB LINKS FOR MAINNET/TESTNES PEER LISTS         
         </h3>
         
+        <p>
+          MAINNET:
+           <a href="https://ipfs-tezos.giganode.io/ipfs/QmeAvj1wRTjcmq6xDwN8s13X7URnzPfrCZGJw2meeuxr3n" target="_blank" class="link">IPFS</a>|WEB
+        </p>
+
+        <p>
+           TESTNET:
+           <a href="https://ipfs-tezos.giganode.io/ipfs/Qmd6p1d15AQvh3yFNmTYKwU58wZrpYWm3ggPTzcyk8MtZ9" target="_blank" class="link">IPFS</a>|WEB
+        </p>        
       </div>
     </div>
   </section>

@@ -10,29 +10,39 @@
 
 
       <div>
-        <h3 class="title mb-2">
-          GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
-        </h3>
-
         <p class="mb-5">
           We are excited to introduce GIGANODE IPFS Gateway, an easy way to access content from the
           InterPlanetary File System (IPFS). We hope that our gateway, hosted at Giganode.io infrastructure,
           will serve as the platform for many new highly-reliable and security-enhanced web applications.
         </p>
+        
+        <h3 class="title mb-2">
+           - GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
+          <a href="https://snapshots-tezos.giganode.io" target="_blank" class="link">https://snapshots-tezos.giganode.io</a>
+        </h3>
+        
+        <p>
+          We are providing access to daily tezos snapshots (full and rolling) via IPFS and web.
+        </p>        
+        
+        <br><br>
+
+        <h3 class="title mb-2">
+           - GIGANODE LINKS FOR MAINNET/TESTNET PEER LISTS         
+        </h3>
+        
+        <p>
+        <center>MAINNET:
+           <a href="https://ipfs-tezos.giganode.io/ipfs/QmeAvj1wRTjcmq6xDwN8s13X7URnzPfrCZGJw2meeuxr3n" target="_blank" class="link">IPFS</a>|<a href="https://snapshots-tezos.giganode.io/mainnet-peers" target="_blank" class="link">WEB</a>
+        </center>
+        </p>
 
         <p>
-          For example, to access IPFS content, all you need to do is open a browser and type:
-        </p>
-        <p class="break-txt">
-          <a
-            href="https://ipfs-tezos.giganode.io/ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link"
-          >
-            https://ipfs-tezos.giganode.io/ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc
-          </a>
-        </p>
+        <center>
+           TESTNET:
+           <a href="https://ipfs-tezos.giganode.io/ipfs/Qmd6p1d15AQvh3yFNmTYKwU58wZrpYWm3ggPTzcyk8MtZ9" target="_blank" class="link">IPFS</a>|<a href="https://snapshots-tezos.giganode.io/testnet-peers" target="_blank" class="link">WEB</a>
+        </center>
+        </p>        
       </div>
     </div>
   </section>

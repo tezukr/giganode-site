@@ -11,7 +11,7 @@
 
       <div>
         <h3 class="title mb-2">
-          GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
+           - GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
           <a href="https://snapshots-tezos.giganode.io" target="_blank" class="link">https://snapshots-tezos.giganode.io</a>
         </h3>
 
@@ -22,18 +22,8 @@
         </p>
 
         <p>
-          For example, to access IPFS content, all you need to do is open a browser and type:
-        </p>
-        <p class="break-txt">
-          <a
-            href="https://ipfs-tezos.giganode.io/ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link"
-          >
-            https://ipfs-tezos.giganode.io/ipfs/QmQPeNsJPyVWPFDVHb77w8G42Fvo15z4bG2X8D2GhfbSXc
-          </a>
-        </p>
+          We are providing access to daily tezos snapshots (full and rolling) via IPFS and web.
+        </p>        
       </div>
     </div>
   </section>

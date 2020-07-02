@@ -25,8 +25,10 @@
           We are providing access to daily tezos snapshots (full and rolling) via IPFS and web.
         </p>        
         
+        <br><br>
+
         <h3 class="title mb-2">
-           - GIGANODE IPFS/WEB LINKS FOR MAINNET/TESTNES PEER LISTS         
+           - GIGANODE LINKS FOR MAINNET/TESTNES PEER LISTS         
         </h3>
         
         <p>

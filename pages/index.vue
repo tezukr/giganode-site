@@ -5,6 +5,7 @@
     <!--    <NodeUsers />-->
     <About />
     <NodeService />
+    <Features />
     <!--    <Testimonials />-->
     <StartUsing />
     <Partners />
@@ -16,6 +17,7 @@ import Intro from '../components/index-sections/Intro'
 import GigaNodeForAll from '../components/index-sections/GigaNodeForAll'
 // import NodeUsers from '../components/index-sections/NodeUsers'
 import NodeService from '../components/index-sections/NodeService'
+import Features from '../components/index-sections/Features'
 import About from '../components/index-sections/About'
 // import Testimonials from '../components/index-sections/Testimonials'
 import Partners from '../components/index-sections/Partners'
@@ -28,6 +30,7 @@ export default {
     GigaNodeForAll,
     // NodeUsers,
     NodeService,
+    Features,
     About,
     // Testimonials,
     Partners,

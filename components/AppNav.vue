@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <ul 
+    <ul
       :class="{
         'nav-list': true,
         'nav-list--mobile': mobile
@@ -58,6 +58,7 @@ export default {
         { text: 'Home', to: { name: 'index' }, isInnerLink: true },
         { text: 'Usage', to: { name: 'index', hash: '#startUsing' }, isInnerLink: true },
         { text: 'Service', to: { name: 'index', hash: '#service' }, isInnerLink: true },
+        { text: 'Features', to: { name: 'index', hash: '#features' }, isInnerLink: true },
         { text: 'About', to: { name: 'index', hash: '#about' }, isInnerLink: true },
         { text: 'Blog', to: 'https://medium.com/@giganode', isInnerLink: false },
       ]
@@ -72,24 +73,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  
+
   .nav-list {
     margin-bottom: 0;
     list-style-type: none;
     padding-left: 0;
     display: flex;
-    
+
     &--mobile {
       flex-direction: column;
     }
-    
+
     &__item {
       margin-right: 36px;
-      
+
       &:last-child {
         margin-right: 0;
       }
-      
+
       &--mobile {
         text-align: center;
         margin-right: 0;
@@ -97,5 +98,5 @@ export default {
       }
     }
   }
-  
+
 </style>

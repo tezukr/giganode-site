@@ -10,20 +10,29 @@
 
 
       <div>
-        <h3 class="title mb-2">
-           - GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
-          <a href="https://snapshots-tezos.giganode.io" target="_blank" class="link">https://snapshots-tezos.giganode.io</a>
-        </h3>
-
         <p class="mb-5">
           We are excited to introduce GIGANODE IPFS Gateway, an easy way to access content from the
           InterPlanetary File System (IPFS). We hope that our gateway, hosted at Giganode.io infrastructure,
           will serve as the platform for many new highly-reliable and security-enhanced web applications.
         </p>
-
+        
+        <h3 class="title mb-2">
+           - GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
+          <a href="https://snapshots-tezos.giganode.io" target="_blank" class="link">https://snapshots-tezos.giganode.io</a>
+        </h3>
+        
         <p>
           We are providing access to daily tezos snapshots (full and rolling) via IPFS and web.
         </p>        
+        
+        <h3 class="title mb-2">
+           - GIGANODE IPFS/WEB LINKS FOR MAINNET/TESTNES PEER LISTS
+           MAINNET:
+           <a href="https://ipfs-tezos.giganode.io/ipfs/QmeAvj1wRTjcmq6xDwN8s13X7URnzPfrCZGJw2meeuxr3n" target="_blank" class="link">IPFS</a>|WEB
+           TESTNET:
+           <a href="https://ipfs-tezos.giganode.io/ipfs/Qmd6p1d15AQvh3yFNmTYKwU58wZrpYWm3ggPTzcyk8MtZ9" target="_blank" class="link">IPFS</a>|WEB
+        </h3>
+        
       </div>
     </div>
   </section>

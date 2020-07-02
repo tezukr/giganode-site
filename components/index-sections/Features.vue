@@ -28,7 +28,7 @@
         <br><br>
 
         <h3 class="title mb-2">
-           - GIGANODE LINKS FOR MAINNET/TESTNES PEER LISTS         
+           - GIGANODE LINKS FOR MAINNET/TESTNET PEER LISTS         
         </h3>
         
         <p>

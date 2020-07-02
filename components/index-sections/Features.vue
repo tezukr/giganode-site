@@ -12,6 +12,7 @@
       <div>
         <h3 class="title mb-2">
           GIGANODE IPFS STORAGE FOR TEZOS SNAPSHOTS
+          <a href="https://snapshots-tezos.giganode.io" target="_blank" class="link">https://snapshots-tezos.giganode.io</a>
         </h3>
 
         <p class="mb-5">

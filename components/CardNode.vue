@@ -152,4 +152,8 @@ export default {
     }
   }
 
+  .desc {
+    font-size: $fs-14;
+  }
+
 </style>

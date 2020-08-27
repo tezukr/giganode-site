@@ -80,7 +80,17 @@
             },
             status: 'Online',
             to: "",
-          }
+          },
+          {
+            percent: 99.69,
+            name: 'Dalphanet testnet',
+            desc: {
+              isLink: true,
+              content: 'https://dalphanet-tezos.giganode.io'
+            },
+            status: 'Online',
+            to: "",
+          },
         ]
       };
     }
@@ -111,6 +121,7 @@
       display: flex;
       justify-content: center;
       margin-bottom: 30px;
+      flex-wrap: wrap;
       @include md-down {
         flex-direction: column;
         align-items: center;
@@ -119,7 +130,8 @@
     }
 
     &__nodes-item {
-      margin: 0 15px;
+      margin: 0 15px 15px;
+      flex: 1 0 auto;
       @include lg-down {
         margin: 0 10px 15px;
       }

@@ -56,7 +56,7 @@ export default {
     return {
       partners: [
         {
-          href: 'https://github.com/habanoz/tezos-reward-distributor',
+          href: 'https://github.com/tezos-reward-distributor-organization/tezos-reward-distributor',
           imgPath: trd,
           alt: "Tezos Reward Distributor"
         },

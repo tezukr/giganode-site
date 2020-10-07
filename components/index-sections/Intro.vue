@@ -63,7 +63,7 @@
           },
           {
             percent: 99.67,
-            name: 'Carthage testnet (v7.2)',
+            name: 'Carthage testnet (v7.3)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'

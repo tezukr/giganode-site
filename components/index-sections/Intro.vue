@@ -83,10 +83,10 @@
           },
           {
             percent: 99.69,
-            name: 'Dalphanet testnet',
+            name: 'Delphinet testnet',
             desc: {
               isLink: true,
-              content: 'https://dalphanet-tezos.giganode.io'
+              content: 'https://delphinet-tezos.giganode.io'
             },
             status: 'Online',
             to: "",

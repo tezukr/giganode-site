@@ -53,7 +53,7 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Carthage mainnet',
+            name: 'Carthage mainnet (v7.4)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'
@@ -83,7 +83,7 @@
           },
           {
             percent: 99.69,
-            name: 'Delphinet testnet',
+            name: 'Delphinet testnet (7.4)',
             desc: {
               isLink: true,
               content: 'https://delphinet-tezos.giganode.io'

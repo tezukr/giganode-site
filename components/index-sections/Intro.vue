@@ -83,7 +83,7 @@
           },
           {
             percent: 99.69,
-            name: 'Delphinet testnet (7.4)',
+            name: 'Delphinet testnet (v8.0-rc1)',
             desc: {
               isLink: true,
               content: 'https://delphinet-tezos.giganode.io'

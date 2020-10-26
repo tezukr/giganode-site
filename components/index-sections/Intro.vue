@@ -72,16 +72,6 @@
             to: "",
           },
           {
-            percent: 99.77,
-            name: 'Labnet testnet',
-            desc: {
-              isLink: true,
-              content: 'https://labnet-tezos.giganode.io'
-            },
-            status: 'Online',
-            to: "",
-          },
-          {
             percent: 99.69,
             name: 'Delphinet testnet (v8.0-rc1)',
             desc: {

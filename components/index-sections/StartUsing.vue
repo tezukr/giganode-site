@@ -122,7 +122,3 @@ export default {
   name: 'StartUsing'
 };
 </script>
-
-<style scoped>
-
-</style>

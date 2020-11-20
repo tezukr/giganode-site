@@ -53,7 +53,7 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Delphi mainnet (v7.4)',
+            name: 'Delphi mainnet (v7.5)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'

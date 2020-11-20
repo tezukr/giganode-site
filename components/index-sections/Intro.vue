@@ -62,7 +62,7 @@
             to: "carthage-mainnet",
           },
           {
-            percent: 99.69,
+            percent: 99.61,
             name: 'Сarthage testnet',
             desc: {
               isLink: true,

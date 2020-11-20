@@ -63,6 +63,16 @@
           },
           {
             percent: 99.69,
+            name: 'Сarthage testnet',
+            desc: {
+              isLink: true,
+              content: 'https://testnet-tezos.giganode.io'
+            },
+            status: 'Online -> End of Life: 12/12/2020',
+            to: "",
+          },
+          {
+            percent: 99.69,
             name: 'Delphinet testnet (v8.0-rc1)',
             desc: {
               isLink: true,

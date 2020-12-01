@@ -62,6 +62,16 @@
             to: "carthage-mainnet",
           },
           {
+            percent: 99.74,
+            name: 'Edonet testnet',
+            desc: {
+              isLink: true,
+              content: 'https://edonet-tezos.giganode.io'
+            },
+            status: 'Online',
+            to: "",
+          },
+          {
             percent: 99.61,
             name: 'Сarthage testnet',
             desc: {

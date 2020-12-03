@@ -63,7 +63,7 @@
           },
           {
             percent: 99.74,
-            name: 'Edonet testnet',
+            name: 'Edo testnet',
             desc: {
               isLink: true,
               content: 'https://edonet-tezos.giganode.io'
@@ -83,7 +83,7 @@
           },
           {
             percent: 99.69,
-            name: 'Delphinet testnet (v8.0-rc1)',
+            name: 'Delphi testnet (v8.0-rc1)',
             desc: {
               isLink: true,
               content: 'https://delphinet-tezos.giganode.io'

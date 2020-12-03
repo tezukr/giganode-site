@@ -9,6 +9,7 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Your reliable Tezos RPC endpoints:\n' +
           'Mainnet: https://mainnet-tezos.giganode.io\n' +
+          'Edonet: https://testnet-tezos.giganode.io\n'+
           'Testnet: https://testnet-tezos.giganode.io\n' },
       // Open graph meta-tags
       { property: 'og:type', content: 'website' },

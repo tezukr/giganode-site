@@ -9,7 +9,7 @@
                 HTTPS://MAINNET-TEZOS.GIGANODE.IO
               </h4>
               <div class="grey fw-medium">
-                Carthage mainnet
+                Tezos mainnet endpoint
               </div>
             </div>
 

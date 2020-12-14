@@ -62,6 +62,16 @@
             to: "carthage-mainnet",
           },
           {
+            percent: 99.61,
+            name: 'Delphi testnet (v8.0-rc1)',
+            desc: {
+              isLink: true,
+              content: 'https://testnet-tezos.giganode.io'
+            },
+            status: 'Online',
+            to: "",
+          },
+          {
             percent: 99.74,
             name: 'Edo testnet',
             desc: {
@@ -70,27 +80,7 @@
             },
             status: 'Online',
             to: "",
-          },
-          {
-            percent: 99.61,
-            name: 'Сarthage testnet',
-            desc: {
-              isLink: true,
-              content: 'https://testnet-tezos.giganode.io'
-            },
-            status: 'Online -> End of Life: 12/12/2020',
-            to: "",
-          },
-          {
-            percent: 99.69,
-            name: 'Delphi testnet (v8.0-rc1)',
-            desc: {
-              isLink: true,
-              content: 'https://delphinet-tezos.giganode.io'
-            },
-            status: 'Online',
-            to: "",
-          },
+          }
         ]
       };
     }

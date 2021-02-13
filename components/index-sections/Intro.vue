@@ -53,7 +53,7 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Delphi mainnet (v8.1)',
+            name: 'Edonet mainnet (v8.2)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'
@@ -68,7 +68,7 @@
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'
             },
-            status: 'Online',
+            status: 'Online, for 2 weeks',
             to: "",
           },
           {
@@ -78,7 +78,7 @@
               isLink: true,
               content: 'https://edonet-tezos.giganode.io'
             },
-            status: 'Online',
+            status: 'Online, will be updated in 48 hours',
             to: "",
           }
         ]

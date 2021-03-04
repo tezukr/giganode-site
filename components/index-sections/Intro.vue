@@ -63,12 +63,12 @@
           },
           {
             percent: 99.61,
-            name: 'Delphi testnet (v8.1 - PsDELPH1)',
+            name: 'Edo testnet (v8.2 - PtEdo2Zk)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'
             },
-            status: 'Online, for 2 weeks',
+            status: 'Online',
             to: "",
           },
           {

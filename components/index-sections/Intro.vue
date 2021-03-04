@@ -53,7 +53,7 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Edonet mainnet (v8.2 - PtEdo2Zk)',
+            name: 'Edo mainnet (v8.2 - PtEdo2Zk)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'

@@ -70,16 +70,6 @@
             },
             status: 'Online',
             to: "",
-          },
-          {
-            percent: 99.74,
-            name: 'Edo2net testnet (v8.2 - PtEdo2Zk)',
-            desc: {
-              isLink: true,
-              content: 'https://edonet-tezos.giganode.io'
-            },
-            status: 'Online',
-            to: "",
           }
         ]
       };

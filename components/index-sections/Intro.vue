@@ -73,7 +73,7 @@
           },
           {
             percent: 99.56,
-            name: 'Florence testnet (009 PsFLor - florencenobanet)',
+            name: 'Florence testnet (009 PsFLor - NO BA)',
             desc: {
               isLink: true,
               content: 'https://florence-tezos.giganode.io'

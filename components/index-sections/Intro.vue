@@ -72,13 +72,13 @@
             to: "",
           },
           {
-            percent: 0,
-            name: 'Florence testnet (v8.2)',
+            percent: 99.56,
+            name: 'Florence testnet (v8.2 - PsFLoren)',
             desc: {
               isLink: true,
               content: 'https://florence-tezos.giganode.io'
             },
-            status: 'Offline',
+            status: 'Online',
             to: "",
           }
         ]

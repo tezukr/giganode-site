@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Your reliable Tezos RPC endpoints:\n' +
           'Mainnet: https://mainnet-tezos.giganode.io\n' +
           'Testnet: https://testnet-tezos.giganode.io\n'+
-          'Edonet: https://edonet-tezos.giganode.io\n' },
+          'Florence: https://florence-tezos.giganode.io\n' },
       // Open graph meta-tags
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://giganode.io/' },

@@ -70,6 +70,16 @@
             },
             status: 'Online',
             to: "",
+          },
+          {
+            percent: 0,
+            name: 'Florence testnet (v8.2)',
+            desc: {
+              isLink: true,
+              content: 'https://florence-tezos.giganode.io'
+            },
+            status: 'Offline',
+            to: "",
           }
         ]
       };

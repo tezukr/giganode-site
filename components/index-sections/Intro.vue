@@ -63,7 +63,7 @@
           },
           {
             percent: 99.61,
-            name: 'Edo testnet (v8.2 - PtEdo2Zk)',
+            name: 'Edo testnet (v9.0-rc1 - PtEdo2Zk)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'

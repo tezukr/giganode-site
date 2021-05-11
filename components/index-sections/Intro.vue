@@ -53,32 +53,22 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Edo mainnet (v8.2 - PtEdo2Zk)',
+            name: 'Florence mainnet (v9.1 - PsFLoren)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'
             },
             status: 'Online',
-            to: "carthage-mainnet",
+            to: "florence-mainnet",
           },
           {
-            percent: 99.61,
-            name: 'Edo testnet (v9.0-rc1 - PtEdo2Zk)',
+            percent: 0,
+            name: 'Florence testnet (v9.1 - PsFLoren)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'
             },
-            status: 'Online',
-            to: "",
-          },
-          {
-            percent: 99.56,
-            name: 'Florence testnet (009 PsFLor - NO BA)',
-            desc: {
-              isLink: true,
-              content: 'https://florence-tezos.giganode.io'
-            },
-            status: 'Online',
+            status: 'Ofline - Upgrading',
             to: "",
           }
         ]

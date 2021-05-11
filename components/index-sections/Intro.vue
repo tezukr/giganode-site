@@ -68,7 +68,7 @@
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'
             },
-            status: 'Ofline - Upgrading',
+            status: 'Offline - Upgrading',
             to: "",
           }
         ]

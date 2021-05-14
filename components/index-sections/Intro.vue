@@ -62,13 +62,13 @@
             to: "florence-mainnet",
           },
           {
-            percent: 0,
+            percent: 98,
             name: 'Florence testnet (v9.1 - PsFLoren)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'
             },
-            status: 'Offline - Upgrading',
+            status: 'Online',
             to: "",
           }
         ]

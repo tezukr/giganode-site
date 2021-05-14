@@ -56,7 +56,7 @@
   
           <p class="p--accent mb-5">
             Our team uses only proven solutions and providers, that allowed us to
-            create a cluster consisting of 4 Tezos Full Archive Nodes based on such
+            create a cluster consisting of 17 Tezos Full Archive Nodes (11 mainnet, 5 testnet, 1 for new protocol) based on such
             technologies as Nginx, Haproxy, Graphana, Prometheus, and Munin.
           </p>
           

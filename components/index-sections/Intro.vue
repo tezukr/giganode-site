@@ -53,7 +53,7 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Florence mainnet (v9.1 - PsFLoren)',
+            name: 'Florence mainnet (v9.4 - PsFLoren)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'
@@ -63,7 +63,7 @@
           },
           {
             percent: 98,
-            name: 'Florence testnet (v9.1 - PsFLoren)',
+            name: 'Florence testnet (v9.4 - PsFLoren)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'

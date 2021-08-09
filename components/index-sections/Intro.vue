@@ -53,17 +53,17 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Florence mainnet (v9.4 - PsFLoren)',
+            name: 'Mainnet (v9.7 - PtGRANAD)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'
             },
             status: 'Online',
-            to: "florence-mainnet",
+            to: "granad-mainnet",
           },
           {
             percent: 98,
-            name: 'Florence testnet (v9.4 - PsFLoren)',
+            name: 'Testnet (v9.7 - PtGRANAD)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'

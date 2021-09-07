@@ -53,7 +53,7 @@
         nodes: [
           {
             percent: 99.87,
-            name: 'Mainnet (v9.7 - PtGRANAD)',
+            name: 'Mainnet (v10.2 - PtGRANAD)',
             desc: {
               isLink: true,
               content: 'https://mainnet-tezos.giganode.io'
@@ -62,13 +62,13 @@
             to: "granad-mainnet",
           },
           {
-            percent: 98,
-            name: 'Testnet (v9.7 - PtGRANAD)',
+            percent: 99.31,
+            name: 'Testnet (v10.2 - PtGRANAD)',
             desc: {
               isLink: true,
               content: 'https://testnet-tezos.giganode.io'
             },
-            status: 'Offline',
+            status: 'Online',
             to: "",
           }
         ]
